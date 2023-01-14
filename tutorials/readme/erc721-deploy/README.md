@@ -175,7 +175,7 @@ ERCとは「Ethereum Request for Comments」の略で、トークン規格のよ
 
 アプリケーションレベルでコントラクト実装を標準化するERCにはいくつかの規格が存在します。
 
-#### **ERC20：**FT**（**Fungible Token**）を実現するための規格**
+#### **ERC20：FT（Fungible Token）を実現するための規格**
 
 最も有名なERC規格です。
 
@@ -228,7 +228,11 @@ contract SimpleNFT is ERC721URIStorage, Ownable {
 
 こちらのコードの解説は以下のページで行います。
 
-では実際にこのコントラクトをコンパイルして、MetaMask経由でNFTを発行してみましょう。
+{% content-ref url="solidity-jie-shuo.md" %}
+[solidity-jie-shuo.md](solidity-jie-shuo.md)
+{% endcontent-ref %}
+
+では実際にこのコントラクトをデプロイしてみましょう。
 
 <figure><img src="../../../.gitbook/assets/core.png" alt=""><figcaption></figcaption></figure>
 
