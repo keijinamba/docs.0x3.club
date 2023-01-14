@@ -282,5 +282,3 @@ _setTokenURI(newItemId, tokenURI);
 ERC721URIStorageコントラクトの\_setTokenURIメソッドを実行します。NFTのメタデータを格納したファイルのURLをトークンに紐づけて保存します。
 
 {% embed url="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/785f65183c3ca6826cb0d4c160f65f4f92e33460/contracts/token/ERC721/extensions/ERC721URIStorage.sol#L45-L48" %}
-
-では実際にこのコントラクトをコンパイルして、MetaMask経由でNFTを発行してみましょう。
