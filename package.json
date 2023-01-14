@@ -1,0 +1,8 @@
+{
+  "name": "docs.0x3.club",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/keijinamba/docs.0x3.club.git",
+  "author": "Keiji Namba",
+  "license": "MIT"
+}
