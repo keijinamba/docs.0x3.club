@@ -21,11 +21,11 @@ description: このチュートリアルでは、ERC721のスマートコント�
 ## 環境構築
 
 ```shell
- % node -v
+% node -v
 v19.4.0
 ```
 
-```bash
+```shell
 % yarn init
 yarn init v1.22.11
 question name (docs.0x3.club): docs.0x3.club
@@ -38,4 +38,10 @@ question license (MIT):
 question private: 
 success Saved package.json
 ✨  Done in 41.50s.
+```
+
+### Hardhatのインストール
+
+```shell
+% yarn add -D hardhat
 ```
