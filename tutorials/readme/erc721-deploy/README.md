@@ -314,7 +314,7 @@ main()
   .catch(error => {
     console.error(error);
     process.exit(1);
-  });¥
+  });
 ```
 {% endcode %}
 
@@ -326,7 +326,7 @@ main()
 ```json
 {
     "scripts": {
-        "deploy": "npx hardhat --config hardhat/hardhat.config.js run hardhat/scripts/deploy.js --network goerli"
+        "deploy": "npx hardhat --config hardhat/hardhat.config.js run hardhat/scripts/deploy.js"
     }
 }
 ```
