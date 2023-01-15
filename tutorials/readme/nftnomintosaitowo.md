@@ -47,13 +47,13 @@ pinataにログイン後、アップロードボタンからファイルを選�
 browserifyを使ってJavascriptのモジュールをrequire出来るようにします。
 
 ```shell
-% yarn add　-D browserify
+% yarn add -D browserify
 ```
 
 さらに、今回コントラクトを扱うためにweb3.jsを使用するのでこちらもインストールします。
 
 ```shell
-% yarn add　-D web3
+% yarn add -D web3
 ```
 
 それでは、/webディレクトリ上にwebページで表示するためのファイルを実装していきます。
