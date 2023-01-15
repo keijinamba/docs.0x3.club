@@ -156,6 +156,20 @@ window.addEventListener("DOMContentLoaded", () => {
 上記でpinataにアップロードしたJsonファイルのIPFS URLを指定します。
 {% endhint %}
 
+### browserifyでコンパイル
+
+browseryfiyでmain.jsをコンパイルしてブラウザで使用できる形にするためのコマンドをとろくしておきます。
+
+{% code title="package.json" %}
+```json
+{
+  "scripts": {
+    "build": "browserify web/main.js -o web/bundle.js"
+  }
+}
+```
+{% endcode %}
+
 ## 発行されたNFTを確認
 
 ### Etherscanで確認
