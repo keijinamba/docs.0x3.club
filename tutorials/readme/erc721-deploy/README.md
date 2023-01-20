@@ -228,8 +228,8 @@ contract SimpleNFT is ERC721URIStorage, Ownable {
 
 こちらのコードの解説は以下のページで行います。
 
-{% content-ref url="solidity-jie-shuo.md" %}
-[solidity-jie-shuo.md](solidity-jie-shuo.md)
+{% content-ref url="solidity.md" %}
+[solidity.md](solidity.md)
 {% endcontent-ref %}
 
 では実際にこのコントラクトをデプロイしてみましょう。
@@ -356,6 +356,6 @@ Contract deployed to address: 0xd232B0121686304A46a80F1a87Ca2a245b54D873
 
 ## Next
 
-{% content-ref url="../nftnomintosaitowo.md" %}
-[nftnomintosaitowo.md](../nftnomintosaitowo.md)
+{% content-ref url="../nft-mint-page.md" %}
+[nft-mint-page.md](../nft-mint-page.md)
 {% endcontent-ref %}
